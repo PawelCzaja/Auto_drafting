@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+    margin: 50px;
+}
+
+#main{
+    display: flex;
+}
+
+.picks{
+    width:40%;
+    padding: 20px;
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: rgb(46, 194, 144);
+}
+
+.picks form{
+    margin: 0px;
+}
+
+.picks form label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#propositions{
+    width: 60%;
+    text-align: center;
+}
+
+#propositions div{
+    height: 100%;
+}
+
+#right_picks{
+    text-align: right;
+}
