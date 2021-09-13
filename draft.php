@@ -155,7 +155,7 @@
     function picking($champions ,$picked_by_enemies, $picked){
 
         // zmienne do edycji
-        $ile_postaci_pokazuje = 6;
+        $ile_postaci_pokazuje = 8;
         $ile_warta_kontra = 5;
         $ile_warta_synergia = 3;
 
