@@ -35,29 +35,36 @@
         <div id="main">
             <div id="left_picks" class="picks">
                 <form id="form1" name="form1" method="GET" action="index.php">
-                    <input type="text" name="blue_1" value="<?php label('blue_1') ?>"><label>Summoner 1</label><br>
-                    <input type="text" name="blue_2" value="<?php label('blue_2') ?>"><label>Summoner 2</label><br>
-                    <input type="text" name="blue_3" value="<?php label('blue_3') ?>"><label>Summoner 3</label><br>
-                    <input type="text" name="blue_4" value="<?php label('blue_4') ?>"><label>Summoner 4</label><br>
-                    <input type="text" name="blue_5" value="<?php label('blue_5') ?>"><label>Summoner 5</label><br>
+                    <input type="text" name="blue_1" value="<?php label('blue_1') ?>"><label><?php echo picked_role($picked[0], $champions, 1) ?></label><br>
+                    <input type="text" name="blue_2" value="<?php label('blue_2') ?>"><label><?php echo picked_role($picked[1], $champions, 2) ?></label><br>
+                    <input type="text" name="blue_3" value="<?php label('blue_3') ?>"><label><?php echo picked_role($picked[2], $champions, 3) ?></label><br>
+                    <input type="text" name="blue_4" value="<?php label('blue_4') ?>"><label><?php echo picked_role($picked[3], $champions, 4) ?></label><br>
+                    <input type="text" name="blue_5" value="<?php label('blue_5') ?>"><label><?php echo picked_role($picked[4], $champions, 5) ?></label><br>
                 </form>
-                <span class='blue'><?php picked_ap($picked, $champions) ?></span><span class='orange'><?php picked_ad($picked, $champions) ?></span>
+                <br>
+                <?php picked_dmg($picked, $champions) ?>
             </div>
             <div id="propositions">
                 <div>
-                    <?php picking($champions, $picked_by_enemies, $picked); ?></span>
+                    <?php
+                        if($ile_picked < 5)
+                        {
+                            picking($champions, $picked_by_enemies, $picked); 
+                        }
+                    ?>
                 </div>
                 <input form ="form1" type="submit" name="subbmit">
             </div>
             <div id="right_picks" class="picks">
                 <form id="form2" name="form1" method="GET" action="index.php">
-                    <label>Summoner 1</label><input form ="form1" type="text" name="red_1" value="<?php label('red_1') ?>"><br>
-                    <label>Summoner 2</label><input form ="form1" type="text" name="red_2" value="<?php label('red_2') ?>"><br>
-                    <label>Summoner 3</label><input form ="form1" type="text" name="red_3" value="<?php label('red_3') ?>"><br>
-                    <label>Summoner 4</label><input form ="form1" type="text" name="red_4" value="<?php label('red_4') ?>"><br>
-                    <label>Summoner 5</label><input form ="form1" type="text" name="red_5" value="<?php label('red_5') ?>"><br>
+                    <label><?php echo picked_role($picked_by_enemies[0], $champions, 1) ?></label><input form ="form1" type="text" name="red_1" value="<?php label('red_1') ?>"><br>
+                    <label><?php echo picked_role($picked_by_enemies[1], $champions, 2) ?></label><input form ="form1" type="text" name="red_2" value="<?php label('red_2') ?>"><br>
+                    <label><?php echo picked_role($picked_by_enemies[2], $champions, 3) ?></label><input form ="form1" type="text" name="red_3" value="<?php label('red_3') ?>"><br>
+                    <label><?php echo picked_role($picked_by_enemies[3], $champions, 4) ?></label><input form ="form1" type="text" name="red_4" value="<?php label('red_4') ?>"><br>
+                    <label><?php echo picked_role($picked_by_enemies[4], $champions, 5) ?></label><input form ="form1" type="text" name="red_5" value="<?php label('red_5') ?>"><br>
                 </form>
-                <span class='blue'><?php picked_ap($picked_by_enemies, $champions) ?></span><span class='orange'><?php picked_ad($picked_by_enemies, $champions) ?></span>
+                <br>
+                <?php picked_dmg($picked_by_enemies, $champions) ?>
             </div>
         </div>
     </body>

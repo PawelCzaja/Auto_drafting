@@ -75,36 +75,65 @@
         return $adap;
     }
 
-    function picked_ad($picked, $champions)
+    function picked_role($picked, $champions, $num)
+    {
+
+        foreach($champions as $champ)
+        {
+            if($champ->name == $picked)
+            {
+                switch($champ->role)
+                {
+                    case 1:
+                        $role = "TOP";
+                        break;
+                    case 2:
+                        $role = "JUNGLER";
+                        break;
+                    case 3:
+                        $role = "MID";
+                        break;
+                    case 4:
+                        $role = "ADC";
+                        break;
+                    case 5:
+                        $role = "SUPP";
+                        break;
+                }
+                return $role;
+            }
+        }
+        return "Summoner ".$num;
+    }
+
+    function picked_dmg($picked, $champions)
     {
         foreach($picked as $i)
         {
-            foreach($champions as $champ)
+            if ($i != "")
             {
-                if($champ->name == $i)
+                foreach($champions as $champ)
                 {
-                    if($champ->adap == 1)
+                    if($champ->name == $i)
                     {
-                        echo "&#9632";
+                        if($champ->adap == -1)
+                        {
+                            echo "<span class='blue'> &#9632 </span>";
+                        }
+                        else if($champ->adap == 1)
+                        {
+                            echo "<span class='orange'> &#9632 </span>";
+                        }
+                        else
+                        {
+                            echo "&#9632";
+                        }
                     }
                 }
             }
-        }
-    }
-
-    function picked_ap($picked, $champions)
-    {
-        foreach($picked as $i)
-        {
-            foreach($champions as $champ)
+            else
             {
-                if($champ->name == $i)
-                {
-                    if($champ->adap == -1)
-                    {
-                        echo "&#9632";
-                    }
-                }
+                echo "&#9632";
             }
         }
     }
@@ -115,7 +144,7 @@
         $i = 0;
         foreach($picked as $pick)
         {
-            if($pick !== "")
+            if($pick != "")
             {
                 $i++;
             }
