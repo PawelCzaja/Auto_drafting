@@ -1,5 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgba(1, 6, 27, 1);
+    color: rgba(28, 170, 188, 1);
+     1 6 27*/
 }
 
 header{
@@ -16,7 +19,7 @@ header{
     padding: 20px;
     padding-top:40px;
     padding-bottom:40px;
-    background-color: rgb(46, 194, 144);
+    background-color: rgb(125, 178, 102);
 }
 
 .picks form{
@@ -59,4 +62,14 @@ header{
 
 .orange{
     color: orange;
+}
+
+#right_picks{
+    color:rgb(94, 0, 0);
+    background-color: rgba(112, 62, 62, 0.596);
+}
+
+#left_picks{
+    color:rgb(11, 94, 133);
+    background-color: rgba(102, 102, 173, 0.363);
 }
