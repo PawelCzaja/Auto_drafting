@@ -24,7 +24,7 @@
             $this->counters = $counters;
             $this->countered_by = $countered_by;
             $this->role = $role;
-            $this->adORap = $adap;
+            $this->adap = $adap;
             $this->score = floatval($this->winrate);
         }
     }
@@ -59,23 +59,89 @@
         return $roles;
     }
 
+    function picked_adap($picked, $champions)
+    {
+        $adap = 0;
+        foreach($picked as $i)
+        {
+            foreach($champions as $champ)
+            {
+                if($champ->name == $i)
+                {
+                    $adap += $champ->adap;
+                }
+            }
+        }
+        return $adap;
+    }
+
+    function picked_ad($picked, $champions)
+    {
+        foreach($picked as $i)
+        {
+            foreach($champions as $champ)
+            {
+                if($champ->name == $i)
+                {
+                    if($champ->adap == 1)
+                    {
+                        echo "&#9632";
+                    }
+                }
+            }
+        }
+    }
+
+    function picked_ap($picked, $champions)
+    {
+        foreach($picked as $i)
+        {
+            foreach($champions as $champ)
+            {
+                if($champ->name == $i)
+                {
+                    if($champ->adap == -1)
+                    {
+                        echo "&#9632";
+                    }
+                }
+            }
+        }
+    }
+    
+
+    function how_many_picked($picked)
+    {
+        $i = 0;
+        foreach($picked as $pick)
+        {
+            if($pick !== "")
+            {
+                $i++;
+            }
+        }
+        return $i;
+    }
 
     function picking($champions ,$picked_by_enemies, $picked){
 
         // zmienne do edycji
-        $ile_postaci_pokazuje = 4;
+        $ile_postaci_pokazuje = 6;
+        $ile_warta_kontra = 5;
+        $ile_warta_synergia = 3;
 
         // zmienne
         $roles = picked_roles($picked, $champions);
-        $chosed = [];
+        $adap = picked_adap($picked, $champions);
         $names = [];
-        $adap = 0;
+        $chosed = [];
         $score = 100;
         $how_many_counters = 0;
         $is_counter_picked = false;
 
-        //for($i = 0; $i < $ile_postaci_pokazuje; $i++)
-        while($score >= 52.5)
+
+        for($i = 0; $i < $ile_postaci_pokazuje; $i++)
+        //while($score >= 52.5)
         {
             $highest_score = 0;
             foreach($champions as $champ)
@@ -96,7 +162,7 @@
                     // jeżeli kontuje przeciwnika score +3 dodatkowo jeśli synergia +3 jeśli przeciwnik kontruje score -7 
                     if(in_array($champ->counters, $picked_by_enemies))
                     {
-                        $champ->score += 3;
+                        $champ->score += $ile_warta_kontra;
                     }
                     if(in_array($champ->countered_by, $picked_by_enemies))
                     {
@@ -104,7 +170,7 @@
                     }
                     if(in_array($champ->synergy, $picked))
                     {
-                        $champ->score += 3;
+                        $champ->score += $ile_warta_synergia;
                     }
                     if($champ->score > $highest_score){
                         $highest_score = $champ->score;
@@ -119,7 +185,51 @@
 
         foreach($chosed as $i)
         {
-            echo $i->name." ".$i->score." winrate ".$i->winrate."<br>";
+            echo "<p><b>";
+            echo $i->name."</b> - ";
+            echo "<span class='winrate'> Winrate: <b>".$i->winrate." </b></span> | ";
+            echo "<span class='score'>Score: <b>".$i->score." </b></span>";
+            if (in_array($i->counters, $picked_by_enemies))
+            {
+                echo "<span class='red'> | Kontruje: <b>".$i->counters."</b></span>";
+            }
+            if (in_array($i->synergy, $picked))
+            {
+                echo "<span class='green'> | Synergia: <b>".$i->synergy."</b></span>";
+            }
+            switch($i->role)
+            {
+                case 1:
+                    $role = "TOP";
+                    break;
+                case 2:
+                    $role = "JUNGLER";
+                    break;
+                case 3:
+                    $role = "MID";
+                    break;
+                case 4:
+                    $role = "ADC";
+                    break;
+                case 5:
+                    $role = "SUPP";
+                    break;
+            }
+            switch($i->adap)
+            {
+                case -1:
+                    $this_adap = "<span class='ap'> AP </span>";
+                    break;
+                case 0:
+                    $this_adap = "NONE";
+                    break;
+                case 1:
+                    $this_adap = "<span class='ad'> AD </span>";
+                    break;
+            }
+            echo "<span class='role'> | Role: <b>".$role." </b></span>";
+            echo "<span class='adap'> | DMG_type: <b>".$this_adap." </b></span>";
+            echo "</p>";
         }
     }
 ?>

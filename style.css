@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     text-align: center;
     margin: 50px;
@@ -33,6 +37,26 @@ header{
     height: 100%;
 }
 
+#propositions div table{
+    text-align: center;
+}
+
 #right_picks{
     text-align: right;
+}
+
+.red{
+    color:red;
+}
+
+.green{
+    color:green;
+}
+
+.blue{
+    color: blue;
+}
+
+.orange{
+    color: orange;
 }

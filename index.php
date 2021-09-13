@@ -19,6 +19,8 @@
             @array_push($picked, $_COOKIE["blue_3"]);
             @array_push($picked, $_COOKIE["blue_4"]);
             @array_push($picked, $_COOKIE["blue_5"]);
+
+            $ile_picked = how_many_picked($picked);
         ?>
     </head>
     <body>
@@ -39,9 +41,12 @@
                     <input type="text" name="blue_4" value="<?php label('blue_4') ?>"><label>Summoner 4</label><br>
                     <input type="text" name="blue_5" value="<?php label('blue_5') ?>"><label>Summoner 5</label><br>
                 </form>
+                <span class='blue'><?php picked_ap($picked, $champions) ?></span><span class='orange'><?php picked_ad($picked, $champions) ?></span>
             </div>
             <div id="propositions">
-                <div><?php picking($champions, $picked_by_enemies, $picked); ?></div>
+                <div>
+                    <?php picking($champions, $picked_by_enemies, $picked); ?></span>
+                </div>
                 <input form ="form1" type="submit" name="subbmit">
             </div>
             <div id="right_picks" class="picks">
@@ -52,6 +57,7 @@
                     <label>Summoner 4</label><input form ="form1" type="text" name="red_4" value="<?php label('red_4') ?>"><br>
                     <label>Summoner 5</label><input form ="form1" type="text" name="red_5" value="<?php label('red_5') ?>"><br>
                 </form>
+                <span class='blue'><?php picked_ap($picked_by_enemies, $champions) ?></span><span class='orange'><?php picked_ad($picked_by_enemies, $champions) ?></span>
             </div>
         </div>
     </body>
