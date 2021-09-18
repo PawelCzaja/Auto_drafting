@@ -1,7 +1,7 @@
 <?php
 
     // geting json data redy
-    $json_file = file_get_contents("Statistic.json");
+    $json_file = file_get_contents("champions_statistics.json");
     $champions_data = json_decode($json_file, true);
     // ----------------------
 
@@ -10,20 +10,26 @@
         public $name;
         public $winrate;
         public $synergy;
+        public $synergy_val;
         public $counters;
-        public $countered_by;
+        public $counters_val;
+        public $counter;
+        public $counter_val;
         public $role;
         public $adap;
         public $score;
 
-        public function __construct($name, $winrate, $synergy, $counters, $countered_by, $role, $adap)
+        public function __construct($name, $winrate, $synergy, $synergy_val, $counters, $counters_val, $countered_by, $countered_by_val, $role, $adap)
         {
             $this->name = $name;
-            $this->winrate = $winrate;
+            $this->winrate = $winrate*100;
             $this->synergy = $synergy;
+            $this->synergy_val = $synergy_val;
             $this->counters = $counters;
+            $this->counters_val = $counters_val;
             $this->countered_by = $countered_by;
-            $this->role = $role;
+            $this->countered_by_val = $countered_by_val;
+            $this->role = $role[0];
             $this->adap = $adap;
             $this->score = floatval($this->winrate);
         }
@@ -35,9 +41,12 @@
         $champions[$i] = new Champion(
             $champions_data[$i]["name"],
             $champions_data[$i]["winrate"],
-            $champions_data[$i]["counter_1"],
-            $champions_data[$i]["counter_2"],
-            $champions_data[$i]["counter_3"],
+            $champions_data[$i]["synergy"],
+            $champions_data[$i]["synergy_val"],
+            $champions_data[$i]["counters"],
+            $champions_data[$i]["counters_val"],
+            $champions_data[$i]["counter"], 
+            $champions_data[$i]["counter_val"], 
             $champions_data[$i]["role"],
             $champions_data[$i]["adap"],
         );
@@ -191,15 +200,15 @@
                     // jeżeli kontuje przeciwnika score +3 dodatkowo jeśli synergia +3 jeśli przeciwnik kontruje score -7 
                     if(in_array($champ->counters, $picked_by_enemies))
                     {
-                        $champ->score += $ile_warta_kontra;
+                        $champ->score += $champ->counters_val;
                     }
-                    if(in_array($champ->countered_by, $picked_by_enemies))
+                    if(in_array($champ->counter, $picked_by_enemies))
                     {
-                        $champ->score = $champ->score - 7;
+                        $champ->score = $champ->score - $champ->counter_val;
                     }
                     if(in_array($champ->synergy, $picked))
                     {
-                        $champ->score += $ile_warta_synergia;
+                        $champ->score += $champ->synergy_val;
                     }
                     if($champ->score > $highest_score){
                         $highest_score = $champ->score;

@@ -1,0 +1,2221 @@
+[
+    {
+        "name": "Aatrox",
+        "winrate": "0.505",
+        "synergy": "Talon",
+        "synergy_val": "5.1",
+        "counters": "Sylas",
+        "counters_val": "8.7",
+        "counter": "Kayle",
+        "counter_val": "4.9",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Ahri",
+        "winrate": "0.5127",
+        "synergy": "Trundle",
+        "synergy_val": "8.6",
+        "counters": "Syndra",
+        "counters_val": "5.8",
+        "counter": "Annie",
+        "counter_val": "6.7",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Akali",
+        "winrate": "0.4666",
+        "synergy": "Lillia",
+        "synergy_val": "5.8",
+        "counters": "Tryndamere",
+        "counters_val": "8.5",
+        "counter": "Annie",
+        "counter_val": "7.7",
+        "role": [
+            3,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Akshan",
+        "winrate": "0.5098",
+        "synergy": "Rammus",
+        "synergy_val": "8.9",
+        "counters": "Akali",
+        "counters_val": "9.2",
+        "counter": "Vayne",
+        "counter_val": "7.8",
+        "role": [
+            3,
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Alistar",
+        "winrate": "0.4903",
+        "synergy": "Gragas",
+        "synergy_val": "7.8",
+        "counters": "Pantheon",
+        "counters_val": "11.1",
+        "counter": "Soraka",
+        "counter_val": "5.7",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Amumu",
+        "winrate": "0.5239",
+        "synergy": "Poppy",
+        "synergy_val": "8.1",
+        "counters": "Qiyana",
+        "counters_val": "7.5",
+        "counter": "Karthus",
+        "counter_val": "5.8",
+        "role": [
+            5,
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Anivia",
+        "winrate": "0.5212",
+        "synergy": "Soraka",
+        "synergy_val": "7.9",
+        "counters": "Yone",
+        "counters_val": "4.4",
+        "counter": "Diana",
+        "counter_val": "7.2",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Annie",
+        "winrate": "0.5139",
+        "synergy": "Jax",
+        "synergy_val": "6.0",
+        "counters": "Akali",
+        "counters_val": "9.6",
+        "counter": "Kassadin",
+        "counter_val": "6.4",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Aphelios",
+        "winrate": "0.4691",
+        "synergy": "Rell",
+        "synergy_val": "7.1",
+        "counters": "Kalista",
+        "counters_val": "6.4",
+        "counter": "Miss Fortune",
+        "counter_val": "3.5",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Ashe",
+        "winrate": "0.5095",
+        "synergy": "Bard",
+        "synergy_val": "6.1",
+        "counters": "Kalista",
+        "counters_val": "6.0",
+        "counter": "Akshan",
+        "counter_val": "2.6",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Aurelion Sol",
+        "winrate": "0.4976",
+        "synergy": "Jhin",
+        "synergy_val": "6.1",
+        "counters": "Yone",
+        "counters_val": "2.1",
+        "counter": "Yasuo",
+        "counter_val": "2.8",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Azir",
+        "winrate": "0.4669",
+        "synergy": "Soraka",
+        "synergy_val": "10.4",
+        "counters": "Yasuo",
+        "counters_val": "5.2",
+        "counter": "Yone",
+        "counter_val": "8.0",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Bard",
+        "winrate": "0.5079",
+        "synergy": "Ashe",
+        "synergy_val": "6.2",
+        "counters": "Alistar",
+        "counters_val": "5.6",
+        "counter": "Janna",
+        "counter_val": "3.8",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Blitzcrank",
+        "winrate": "0.526",
+        "synergy": "Kled",
+        "synergy_val": "8.5",
+        "counters": "Pyke",
+        "counters_val": "4.1",
+        "counter": "Taric",
+        "counter_val": "6.2",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Brand",
+        "winrate": "0.4984",
+        "synergy": "Trundle",
+        "synergy_val": "7.9",
+        "counters": "Thresh",
+        "counters_val": "4.1",
+        "counter": "Yuumi",
+        "counter_val": "6.4",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Braum",
+        "winrate": "0.4957",
+        "synergy": "Zac",
+        "synergy_val": "8.4",
+        "counters": "Nautilus",
+        "counters_val": "3.7",
+        "counter": "Sona",
+        "counter_val": "7.8",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Caitlyn",
+        "winrate": "0.4975",
+        "synergy": "Skarner",
+        "synergy_val": "6.3",
+        "counters": "Aphelios",
+        "counters_val": "4.0",
+        "counter": "Sivir",
+        "counter_val": "3.2",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Camille",
+        "winrate": "0.5077",
+        "synergy": "Kog'Maw",
+        "synergy_val": "11.1",
+        "counters": "Renekton",
+        "counters_val": "5.6",
+        "counter": "Shen",
+        "counter_val": "5.7",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Cassiopeia",
+        "winrate": "0.5107",
+        "synergy": "Kindred",
+        "synergy_val": "7.2",
+        "counters": "Twisted Fate",
+        "counters_val": "5.6",
+        "counter": "Qiyana",
+        "counter_val": "7.3",
+        "role": [
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Cho'Gath",
+        "winrate": "0.4985",
+        "synergy": "Nami",
+        "synergy_val": "9.2",
+        "counters": "Darius",
+        "counters_val": "5.9",
+        "counter": "Sett",
+        "counter_val": "7.3",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Corki",
+        "winrate": "0.5219",
+        "synergy": "Shaco",
+        "synergy_val": "11.1",
+        "counters": "Qiyana",
+        "counters_val": "7.2",
+        "counter": "Akshan",
+        "counter_val": "5.7",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Darius",
+        "winrate": "0.4919",
+        "synergy": "Rek'Sai",
+        "synergy_val": "9.5",
+        "counters": "Sylas",
+        "counters_val": "9.1",
+        "counter": "Wukong",
+        "counter_val": "8.0",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Diana",
+        "winrate": "0.4939",
+        "synergy": "Nocturne",
+        "synergy_val": "8.4",
+        "counters": "Syndra",
+        "counters_val": "8.2",
+        "counter": "Poppy",
+        "counter_val": "5.4",
+        "role": [
+            2,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Dr Mundo",
+        "winrate": "0.4972",
+        "synergy": "Akshan",
+        "synergy_val": "9.4",
+        "counters": "Darius",
+        "counters_val": "7.7",
+        "counter": "Irelia",
+        "counter_val": "8.1",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Draven",
+        "winrate": "0.5005",
+        "synergy": "Kennen",
+        "synergy_val": "7.1",
+        "counters": "Aphelios",
+        "counters_val": "5.4",
+        "counter": "Kog'Maw",
+        "counter_val": "3.3",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Ekko",
+        "winrate": "0.5036",
+        "synergy": "Master Yi",
+        "synergy_val": "7.0",
+        "counters": "Qiyana",
+        "counters_val": "8.9",
+        "counter": "Ivern",
+        "counter_val": "8.3",
+        "role": [
+            2,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Elise",
+        "winrate": "0.4963",
+        "synergy": "Malphite",
+        "synergy_val": "8.7",
+        "counters": "Zed",
+        "counters_val": "7.1",
+        "counter": "Evelynn",
+        "counter_val": "5.6",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Evelynn",
+        "winrate": "0.5076",
+        "synergy": "Trundle",
+        "synergy_val": "10.4",
+        "counters": "Qiyana",
+        "counters_val": "6.3",
+        "counter": "Shaco",
+        "counter_val": "5.6",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Ezreal",
+        "winrate": "0.4848",
+        "synergy": "Heimerdinger",
+        "synergy_val": "7.9",
+        "counters": "Varus",
+        "counters_val": "4.4",
+        "counter": "Karthus",
+        "counter_val": "4.0",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Fiddlesticks",
+        "winrate": "0.5213",
+        "synergy": "Amumu",
+        "synergy_val": "7.3",
+        "counters": "Zed",
+        "counters_val": "7.2",
+        "counter": "Amumu",
+        "counter_val": "6.9",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Fiora",
+        "winrate": "0.5092",
+        "synergy": "Anivia",
+        "synergy_val": "6.5",
+        "counters": "Sylas",
+        "counters_val": "7.9",
+        "counter": "Vladimir",
+        "counter_val": "6.5",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Fizz",
+        "winrate": "0.464",
+        "synergy": "Malphite",
+        "synergy_val": "8.1",
+        "counters": "Syndra",
+        "counters_val": "12.2",
+        "counter": "Ekko",
+        "counter_val": "4.4",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Galio",
+        "winrate": "0.4996",
+        "synergy": "Gnar",
+        "synergy_val": "7.6",
+        "counters": "Akali",
+        "counters_val": "7.9",
+        "counter": "Talon",
+        "counter_val": "6.1",
+        "role": [
+            3,
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Gangplank",
+        "winrate": "0.4565",
+        "synergy": "Trundle",
+        "synergy_val": "5.2",
+        "counters": "Renekton",
+        "counters_val": "7.3",
+        "counter": "Quinn",
+        "counter_val": "5.7",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Garen",
+        "winrate": "0.5161",
+        "synergy": "Sivir",
+        "synergy_val": "7.4",
+        "counters": "Illaoi",
+        "counters_val": "6.5",
+        "counter": "Camille",
+        "counter_val": "4.8",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Gnar",
+        "winrate": "0.496",
+        "synergy": "Malzahar",
+        "synergy_val": "8.6",
+        "counters": "Gangplank",
+        "counters_val": "7.0",
+        "counter": "Malphite",
+        "counter_val": "5.1",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Gragas",
+        "winrate": "0.4944",
+        "synergy": "Alistar",
+        "synergy_val": "7.4",
+        "counters": "Nidalee",
+        "counters_val": "9.8",
+        "counter": "Jarvan IV",
+        "counter_val": "7.2",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Graves",
+        "winrate": "0.5017",
+        "synergy": "Cho'Gath",
+        "synergy_val": "5.9",
+        "counters": "Akali",
+        "counters_val": "8.6",
+        "counter": "Fiddlesticks",
+        "counter_val": "6.2",
+        "role": [
+            2,
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Gwen",
+        "winrate": "0.4575",
+        "synergy": "Nami",
+        "synergy_val": "6.8",
+        "counters": "Sion",
+        "counters_val": "7.6",
+        "counter": "Yone",
+        "counter_val": "9.5",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Hecarim",
+        "winrate": "0.491",
+        "synergy": "Soraka",
+        "synergy_val": "8.5",
+        "counters": "Zed",
+        "counters_val": "11.9",
+        "counter": "Kha'Zix",
+        "counter_val": "5.9",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Heimerdinger",
+        "winrate": "0.5193",
+        "synergy": "Yuumi",
+        "synergy_val": "6.4",
+        "counters": "Sett",
+        "counters_val": ".0",
+        "counter": "Sett",
+        "counter_val": ".0",
+        "role": [
+            1,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Illaoi",
+        "winrate": "0.4964",
+        "synergy": "Blitzcrank",
+        "synergy_val": "5.1",
+        "counters": "Riven",
+        "counters_val": "6.0",
+        "counter": "Garen",
+        "counter_val": "7.8",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Irelia",
+        "winrate": "0.4996",
+        "synergy": "Sona",
+        "synergy_val": "6.4",
+        "counters": "Xerath",
+        "counters_val": "9.0",
+        "counter": "Galio",
+        "counter_val": "7.0",
+        "role": [
+            1,
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Ivern",
+        "winrate": "0.5077",
+        "synergy": "Soraka",
+        "synergy_val": "10.9",
+        "counters": "Ekko",
+        "counters_val": "7.2",
+        "counter": "Viego",
+        "counter_val": "5.2",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Janna",
+        "winrate": "0.5076",
+        "synergy": "Fiddlesticks",
+        "synergy_val": "7.2",
+        "counters": "Rell",
+        "counters_val": "6.5",
+        "counter": "Sona",
+        "counter_val": "6.7",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Jarvan IV",
+        "winrate": "0.5219",
+        "synergy": "Neeko",
+        "synergy_val": "6.3",
+        "counters": "Udyr",
+        "counters_val": "5.8",
+        "counter": "Fiddlesticks",
+        "counter_val": "3.5",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Jax",
+        "winrate": "0.5101",
+        "synergy": "Malzahar",
+        "synergy_val": "8.1",
+        "counters": "Renekton",
+        "counters_val": "10.3",
+        "counter": "Lillia",
+        "counter_val": "7.0",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Jayce",
+        "winrate": "0.4635",
+        "synergy": "Amumu",
+        "synergy_val": "6.4",
+        "counters": "Renekton",
+        "counters_val": "8.0",
+        "counter": "Ornn",
+        "counter_val": "6.3",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Jhin",
+        "winrate": "0.514",
+        "synergy": "Skarner",
+        "synergy_val": "8.0",
+        "counters": "Aphelios",
+        "counters_val": "2.9",
+        "counter": "Twitch",
+        "counter_val": "3.9",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Jinx",
+        "winrate": "0.4999",
+        "synergy": "Warwick",
+        "synergy_val": "6.5",
+        "counters": "Akshan",
+        "counters_val": "6.1",
+        "counter": "Ziggs",
+        "counter_val": "3.7",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Kai'Sa",
+        "winrate": "0.4885",
+        "synergy": "Quinn",
+        "synergy_val": "8.7",
+        "counters": "Kalista",
+        "counters_val": "4.2",
+        "counter": "Sivir",
+        "counter_val": "3.1",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Kalista",
+        "winrate": "0.467",
+        "synergy": "Blitzcrank",
+        "synergy_val": "5.1",
+        "counters": "Caitlyn",
+        "counters_val": "5.1",
+        "counter": "Vayne",
+        "counter_val": "5.2",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Karma",
+        "winrate": "0.49",
+        "synergy": "Warwick",
+        "synergy_val": "7.0",
+        "counters": "Lux",
+        "counters_val": "3.8",
+        "counter": "Sona",
+        "counter_val": "5.9",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Karthus",
+        "winrate": "0.5095",
+        "synergy": "Amumu",
+        "synergy_val": "7.4",
+        "counters": "Ezreal",
+        "counters_val": "4.5",
+        "counter": "Master Yi",
+        "counter_val": "6.7",
+        "role": [
+            2,
+            4
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Kassadin",
+        "winrate": "0.5089",
+        "synergy": "Soraka",
+        "synergy_val": "7.8",
+        "counters": "Veigar",
+        "counters_val": "9.8",
+        "counter": "Malzahar",
+        "counter_val": "7.3",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Katarina",
+        "winrate": "0.4994",
+        "synergy": "Sona",
+        "synergy_val": "5.1",
+        "counters": "Ryze",
+        "counters_val": "6.9",
+        "counter": "Kayle",
+        "counter_val": "6.0",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Kayle",
+        "winrate": "0.515",
+        "synergy": "Warwick",
+        "synergy_val": "9.0",
+        "counters": "Gwen",
+        "counters_val": "9.0",
+        "counter": "Yone",
+        "counter_val": "4.7",
+        "role": [
+            1,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Kayn",
+        "winrate": "0.4931",
+        "synergy": "Singed",
+        "synergy_val": "6.2",
+        "counters": "Qiyana",
+        "counters_val": "7.9",
+        "counter": "Rek'Sai",
+        "counter_val": "5.4",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Kennen",
+        "winrate": "0.5006",
+        "synergy": "Sona",
+        "synergy_val": "8.2",
+        "counters": "Gwen",
+        "counters_val": "8.2",
+        "counter": "Irelia",
+        "counter_val": "6.8",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Kha'Zix",
+        "winrate": "0.5176",
+        "synergy": "Quinn",
+        "synergy_val": "8.9",
+        "counters": "Qiyana",
+        "counters_val": "9.0",
+        "counter": "Nunu i Willump",
+        "counter_val": "4.0",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Kindred",
+        "winrate": "0.5017",
+        "synergy": "Cassiopeia",
+        "synergy_val": "8.1",
+        "counters": "Viego",
+        "counters_val": "6.7",
+        "counter": "Trundle",
+        "counter_val": "5.6",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Kled",
+        "winrate": "0.5132",
+        "synergy": "Blitzcrank",
+        "synergy_val": "9.7",
+        "counters": "Tryndamere",
+        "counters_val": "8.8",
+        "counter": "Kayle",
+        "counter_val": "7.2",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Kog'Maw",
+        "winrate": "0.4985",
+        "synergy": "Camille",
+        "synergy_val": "12.0",
+        "counters": "Samira",
+        "counters_val": "7.0",
+        "counter": "Ziggs",
+        "counter_val": "7.4",
+        "role": [
+            4,
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "LeBlanc",
+        "winrate": "0.4975",
+        "synergy": "Maokai",
+        "synergy_val": "6.0",
+        "counters": "Talon",
+        "counters_val": "7.2",
+        "counter": "Vel'Koz",
+        "counter_val": "5.6",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Lee Sin",
+        "winrate": "0.4892",
+        "synergy": "Heimerdinger",
+        "synergy_val": "8.0",
+        "counters": "Qiyana",
+        "counters_val": "9.9",
+        "counter": "Amumu",
+        "counter_val": "4.9",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Leona",
+        "winrate": "0.4948",
+        "synergy": "Quinn",
+        "synergy_val": "6.0",
+        "counters": "Nautilus",
+        "counters_val": "3.6",
+        "counter": "Soraka",
+        "counter_val": "5.4",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Lillia",
+        "winrate": "0.5085",
+        "synergy": "Blitzcrank",
+        "synergy_val": "7.5",
+        "counters": "Qiyana",
+        "counters_val": "7.5",
+        "counter": "Vi",
+        "counter_val": "9.2",
+        "role": [
+            2,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Lissandra",
+        "winrate": "0.5132",
+        "synergy": "Nocturne",
+        "synergy_val": "8.5",
+        "counters": "Zoe",
+        "counters_val": "5.7",
+        "counter": "Ekko",
+        "counter_val": "6.9",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Lucian",
+        "winrate": "0.4849",
+        "synergy": "Sona",
+        "synergy_val": "7.8",
+        "counters": "Kalista",
+        "counters_val": "6.9",
+        "counter": "Vayne",
+        "counter_val": "2.1",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Lulu",
+        "winrate": "0.5015",
+        "synergy": "Fiddlesticks",
+        "synergy_val": "6.3",
+        "counters": "Shaco",
+        "counters_val": "7.1",
+        "counter": "Sona",
+        "counter_val": "4.9",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Lux",
+        "winrate": "0.4933",
+        "synergy": "Sona",
+        "synergy_val": "10.4",
+        "counters": "Akali",
+        "counters_val": "10.9",
+        "counter": "Soraka",
+        "counter_val": "7.5",
+        "role": [
+            5,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Malphite",
+        "winrate": "0.5073",
+        "synergy": "Malzahar",
+        "synergy_val": "10.3",
+        "counters": "Jayce",
+        "counters_val": "8.3",
+        "counter": "Singed",
+        "counter_val": "14.2",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Malzahar",
+        "winrate": "0.5132",
+        "synergy": "Malphite",
+        "synergy_val": "9.8",
+        "counters": "Kassadin",
+        "counters_val": "5.1",
+        "counter": "Talon",
+        "counter_val": "6.6",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Maokai",
+        "winrate": "0.5183",
+        "synergy": "Kha'Zix",
+        "synergy_val": "8.1",
+        "counters": "Pyke",
+        "counters_val": "6.1",
+        "counter": "Blitzcrank",
+        "counter_val": "5.6",
+        "role": [
+            5,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Master Yi",
+        "winrate": "0.496",
+        "synergy": "Ekko",
+        "synergy_val": "7.8",
+        "counters": "Qiyana",
+        "counters_val": "12.1",
+        "counter": "Rek'Sai",
+        "counter_val": "6.6",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Miss Fortune",
+        "winrate": "0.5126",
+        "synergy": "Amumu",
+        "synergy_val": "6.2",
+        "counters": "Aphelios",
+        "counters_val": "5.3",
+        "counter": "Ziggs",
+        "counter_val": "3.8",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Mordekaiser",
+        "winrate": "0.5",
+        "synergy": "Sona",
+        "synergy_val": "8.3",
+        "counters": "Illaoi",
+        "counters_val": "6.8",
+        "counter": "Fiora",
+        "counter_val": "4.8",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Morgana",
+        "winrate": "0.4946",
+        "synergy": "Quinn",
+        "synergy_val": "7.4",
+        "counters": "Swain",
+        "counters_val": "5.8",
+        "counter": "Sona",
+        "counter_val": "5.3",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Nami",
+        "winrate": "0.5223",
+        "synergy": "Cho'Gath",
+        "synergy_val": "6.8",
+        "counters": "Pyke",
+        "counters_val": "5.0",
+        "counter": "Blitzcrank",
+        "counter_val": "5.3",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Nasus",
+        "winrate": "0.4954",
+        "synergy": "Evelynn",
+        "synergy_val": "10.0",
+        "counters": "Jayce",
+        "counters_val": "7.2",
+        "counter": "Tahm Kench",
+        "counter_val": "5.3",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Nautilus",
+        "winrate": "0.4947",
+        "synergy": "Anivia",
+        "synergy_val": "8.0",
+        "counters": "Pantheon",
+        "counters_val": "7.5",
+        "counter": "Rell",
+        "counter_val": "8.2",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Neeko",
+        "winrate": "0.4868",
+        "synergy": "Jarvan IV",
+        "synergy_val": "8.9",
+        "counters": "Yone",
+        "counters_val": "2.1",
+        "counter": "Katarina",
+        "counter_val": "1.6",
+        "role": [
+            3,
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Nidalee",
+        "winrate": "0.4867",
+        "synergy": "Urgot",
+        "synergy_val": "10.4",
+        "counters": "Rengar",
+        "counters_val": "6.3",
+        "counter": "Gragas",
+        "counter_val": "7.9",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Nocturne",
+        "winrate": "0.5172",
+        "synergy": "Urgot",
+        "synergy_val": "9.9",
+        "counters": "Shyvana",
+        "counters_val": "5.9",
+        "counter": "Trundle",
+        "counter_val": "4.3",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Nunu i Willump",
+        "winrate": "0.5001",
+        "synergy": "Soraka",
+        "synergy_val": "7.0",
+        "counters": "Zed",
+        "counters_val": "5.4",
+        "counter": "Taliyah",
+        "counter_val": "5.6",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Olaf",
+        "winrate": "0.491",
+        "synergy": "Amumu",
+        "synergy_val": "8.5",
+        "counters": "Diana",
+        "counters_val": "3.7",
+        "counter": "Kha'Zix",
+        "counter_val": "5.1",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Orianna",
+        "winrate": "0.4875",
+        "synergy": "Jax",
+        "synergy_val": "7.1",
+        "counters": "Fizz",
+        "counters_val": "8.5",
+        "counter": "Lissandra",
+        "counter_val": "4.7",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Ornn",
+        "winrate": "0.5128",
+        "synergy": "Sona",
+        "synergy_val": "7.1",
+        "counters": "Jayce",
+        "counters_val": "8.7",
+        "counter": "Fiora",
+        "counter_val": "6.0",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Pantheon",
+        "winrate": "0.4977",
+        "synergy": "Singed",
+        "synergy_val": "7.0",
+        "counters": "Zed",
+        "counters_val": "8.5",
+        "counter": "Alistar",
+        "counter_val": "9.9",
+        "role": [
+            3,
+            5
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Poppy",
+        "winrate": "0.5061",
+        "synergy": "Amumu",
+        "synergy_val": "9.9",
+        "counters": "Nidalee",
+        "counters_val": "6.9",
+        "counter": "Jax",
+        "counter_val": "7.9",
+        "role": [
+            2,
+            1
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Pyke",
+        "winrate": "0.4826",
+        "synergy": "Lillia",
+        "synergy_val": "6.5",
+        "counters": "Seraphine",
+        "counters_val": "5.6",
+        "counter": "Maokai",
+        "counter_val": "6.2",
+        "role": [
+            5
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Qiyana",
+        "winrate": "0.4722",
+        "synergy": "Vi",
+        "synergy_val": "9.1",
+        "counters": "Cassiopeia",
+        "counters_val": "9.0",
+        "counter": "Master Yi",
+        "counter_val": "9.0",
+        "role": [
+            3,
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Quinn",
+        "winrate": "0.5216",
+        "synergy": "Kha'Zix",
+        "synergy_val": "8.5",
+        "counters": "Gangplank",
+        "counters_val": "7.9",
+        "counter": "Malphite",
+        "counter_val": "10.2",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Rakan",
+        "winrate": "0.503",
+        "synergy": "Urgot",
+        "synergy_val": "5.1",
+        "counters": "Lux",
+        "counters_val": "2.9",
+        "counter": "Sona",
+        "counter_val": "7.9",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Rammus",
+        "winrate": "0.5007",
+        "synergy": "Akshan",
+        "synergy_val": "10.6",
+        "counters": "Viego",
+        "counters_val": "7.0",
+        "counter": "Trundle",
+        "counter_val": "6.9",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Rek'Sai",
+        "winrate": "0.5206",
+        "synergy": "Darius",
+        "synergy_val": "6.7",
+        "counters": "Master Yi",
+        "counters_val": "4.9",
+        "counter": "Graves",
+        "counter_val": "5.9",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Rell",
+        "winrate": "0.5113",
+        "synergy": "Xin Zhao",
+        "synergy_val": "12.0",
+        "counters": "Nautilus",
+        "counters_val": "7.6",
+        "counter": "Janna",
+        "counter_val": "8.4",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Renekton",
+        "winrate": "0.4457",
+        "synergy": "Blitzcrank",
+        "synergy_val": "6.2",
+        "counters": "Yone",
+        "counters_val": "6.4",
+        "counter": "Jax",
+        "counter_val": "5.8",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Rengar",
+        "winrate": "0.4818",
+        "synergy": "Shen",
+        "synergy_val": "9.9",
+        "counters": "Diana",
+        "counters_val": "5.1",
+        "counter": "Hecarim",
+        "counter_val": "8.8",
+        "role": [
+            2,
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Riven",
+        "winrate": "0.5085",
+        "synergy": "Hecarim",
+        "synergy_val": "6.5",
+        "counters": "Akali",
+        "counters_val": "5.8",
+        "counter": "Quinn",
+        "counter_val": "7.0",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Rumble",
+        "winrate": "0.4953",
+        "synergy": "Blitzcrank",
+        "synergy_val": "6.2",
+        "counters": "Yasuo",
+        "counters_val": "8.3",
+        "counter": "Jarvan IV",
+        "counter_val": "6.7",
+        "role": [
+            2,
+            3,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Ryze",
+        "winrate": "0.4673",
+        "synergy": "Zilean",
+        "synergy_val": "7.0",
+        "counters": "Fizz",
+        "counters_val": "7.2",
+        "counter": "Annie",
+        "counter_val": "5.5",
+        "role": [
+            3,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Samira",
+        "winrate": "0.4865",
+        "synergy": "Malzahar",
+        "synergy_val": "8.4",
+        "counters": "Akshan",
+        "counters_val": "5.7",
+        "counter": "Kog'Maw",
+        "counter_val": "5.5",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Sejuani",
+        "winrate": "0.4965",
+        "synergy": "Irelia",
+        "synergy_val": "7.4",
+        "counters": "Master Yi",
+        "counters_val": "6.1",
+        "counter": "Trundle",
+        "counter_val": "6.4",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Senna",
+        "winrate": "0.4919",
+        "synergy": "Rammus",
+        "synergy_val": "9.1",
+        "counters": "Shaco",
+        "counters_val": "5.5",
+        "counter": "Zyra",
+        "counter_val": "8.7",
+        "role": [
+            5
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Seraphine",
+        "winrate": "0.4921",
+        "synergy": "Ornn",
+        "synergy_val": "8.8",
+        "counters": "Thresh",
+        "counters_val": "2.4",
+        "counter": "Sona",
+        "counter_val": "5.9",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Sett",
+        "winrate": "0.5054",
+        "synergy": "Pantheon",
+        "synergy_val": "7.9",
+        "counters": "Gwen",
+        "counters_val": "7.1",
+        "counter": "Yorick",
+        "counter_val": "4.7",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Shaco",
+        "winrate": "0.5058",
+        "synergy": "Corki",
+        "synergy_val": "12.7",
+        "counters": "Qiyana",
+        "counters_val": "9.3",
+        "counter": "Sona",
+        "counter_val": "12.3",
+        "role": [
+            2,
+            5
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Shen",
+        "winrate": "0.5199",
+        "synergy": "Swain",
+        "synergy_val": "7.5",
+        "counters": "Renekton",
+        "counters_val": "8.8",
+        "counter": "Lillia",
+        "counter_val": "5.5",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Shyvana",
+        "winrate": "0.5033",
+        "synergy": "Sona",
+        "synergy_val": "9.4",
+        "counters": "Talon",
+        "counters_val": "5.9",
+        "counter": "Nocturne",
+        "counter_val": "7.9",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Singed",
+        "winrate": "0.5193",
+        "synergy": "Sona",
+        "synergy_val": "5.9",
+        "counters": "Malphite",
+        "counters_val": "11.5",
+        "counter": "Kayle",
+        "counter_val": "7.6",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Sion",
+        "winrate": "0.4816",
+        "synergy": "Zyra",
+        "synergy_val": "9.4",
+        "counters": "Gangplank",
+        "counters_val": "8.2",
+        "counter": "Irelia",
+        "counter_val": "6.1",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Sivir",
+        "winrate": "0.509",
+        "synergy": "Malzahar",
+        "synergy_val": "9.9",
+        "counters": "Kai'Sa",
+        "counters_val": "3.3",
+        "counter": "Vayne",
+        "counter_val": "6.0",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Skarner",
+        "winrate": "0.5213",
+        "synergy": "Jhin",
+        "synergy_val": "7.2",
+        "counters": "Lee Sin",
+        "counters_val": "1.5",
+        "counter": "Jarvan IV",
+        "counter_val": "5.9",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Sona",
+        "winrate": "0.5378",
+        "synergy": "Lux",
+        "synergy_val": "5.9",
+        "counters": "Shaco",
+        "counters_val": "8.0",
+        "counter": "Blitzcrank",
+        "counter_val": "5.7",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Soraka",
+        "winrate": "0.5373",
+        "synergy": "Ivern",
+        "synergy_val": "8.0",
+        "counters": "Shaco",
+        "counters_val": "4.7",
+        "counter": "Amumu",
+        "counter_val": "4.6",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Swain",
+        "winrate": "0.4946",
+        "synergy": "Shen",
+        "synergy_val": "10.0",
+        "counters": "Alistar",
+        "counters_val": "6.0",
+        "counter": "Xerath",
+        "counter_val": "11.4",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Sylas",
+        "winrate": "0.4855",
+        "synergy": "Shen",
+        "synergy_val": "5.7",
+        "counters": "Malphite",
+        "counters_val": "10.0",
+        "counter": "Aatrox",
+        "counter_val": "7.8",
+        "role": [
+            3,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Syndra",
+        "winrate": "0.4827",
+        "synergy": "Riven",
+        "synergy_val": "7.7",
+        "counters": "Vladimir",
+        "counters_val": "5.8",
+        "counter": "Fizz",
+        "counter_val": "6.8",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Tahm Kench",
+        "winrate": "0.5088",
+        "synergy": "Corki",
+        "synergy_val": "9.6",
+        "counters": "Jayce",
+        "counters_val": "6.1",
+        "counter": "Lillia",
+        "counter_val": "8.7",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Taliyah",
+        "winrate": "0.5066",
+        "synergy": "Amumu",
+        "synergy_val": "8.4",
+        "counters": "Lillia",
+        "counters_val": "6.6",
+        "counter": "Elise",
+        "counter_val": "3.7",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Talon",
+        "winrate": "0.5026",
+        "synergy": "Elise",
+        "synergy_val": "7.2",
+        "counters": "Akali",
+        "counters_val": "9.2",
+        "counter": "Tryndamere",
+        "counter_val": "7.8",
+        "role": [
+            2,
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Taric",
+        "winrate": "0.4929",
+        "synergy": "Yone",
+        "synergy_val": "10.1",
+        "counters": "Thresh",
+        "counters_val": "7.4",
+        "counter": "Soraka",
+        "counter_val": "4.3",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Teemo",
+        "winrate": "0.4966",
+        "synergy": "Zilean",
+        "synergy_val": "11.4",
+        "counters": "Gwen",
+        "counters_val": "7.8",
+        "counter": "Ornn",
+        "counter_val": "8.6",
+        "role": [
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Thresh",
+        "winrate": "0.4858",
+        "synergy": "Corki",
+        "synergy_val": "5.9",
+        "counters": "Pantheon",
+        "counters_val": "5.7",
+        "counter": "Taric",
+        "counter_val": "5.2",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Tristana",
+        "winrate": "0.494",
+        "synergy": "Blitzcrank",
+        "synergy_val": "6.5",
+        "counters": "Varus",
+        "counters_val": "6.3",
+        "counter": "Ziggs",
+        "counter_val": "3.9",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Trundle",
+        "winrate": "0.5162",
+        "synergy": "Evelynn",
+        "synergy_val": "9.6",
+        "counters": "Rengar",
+        "counters_val": "6.3",
+        "counter": "Shen",
+        "counter_val": "8.2",
+        "role": [
+            2,
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Tryndamere",
+        "winrate": "0.4961",
+        "synergy": "Nocturne",
+        "synergy_val": "7.1",
+        "counters": "Gwen",
+        "counters_val": "9.3",
+        "counter": "Kled",
+        "counter_val": "9.7",
+        "role": [
+            1,
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Twisted Fate",
+        "winrate": "0.4835",
+        "synergy": "Warwick",
+        "synergy_val": "8.6",
+        "counters": "Akali",
+        "counters_val": "10.4",
+        "counter": "Veigar",
+        "counter_val": "5.2",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Twitch",
+        "winrate": "0.4978",
+        "synergy": "Xerath",
+        "synergy_val": "8.9",
+        "counters": "Varus",
+        "counters_val": "6.3",
+        "counter": "Vayne",
+        "counter_val": "3.5",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Udyr",
+        "winrate": "0.4804",
+        "synergy": "Vayne",
+        "synergy_val": "4.3",
+        "counters": "Viego",
+        "counters_val": "5.8",
+        "counter": "Jarvan IV",
+        "counter_val": "6.1",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Urgot",
+        "winrate": "0.5176",
+        "synergy": "Nocturne",
+        "synergy_val": "9.8",
+        "counters": "Gangplank",
+        "counters_val": "5.6",
+        "counter": "Gnar",
+        "counter_val": "6.6",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Varus",
+        "winrate": "0.4741",
+        "synergy": "Akshan",
+        "synergy_val": "6.1",
+        "counters": "Caitlyn",
+        "counters_val": "4.5",
+        "counter": "Twitch",
+        "counter_val": "3.5",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Vayne",
+        "winrate": "0.525",
+        "synergy": "Corki",
+        "synergy_val": "5.9",
+        "counters": "Kalista",
+        "counters_val": "6.0",
+        "counter": "Ashe",
+        "counter_val": "3.3",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Veigar",
+        "winrate": "0.497",
+        "synergy": "Amumu",
+        "synergy_val": "8.2",
+        "counters": "Twisted Fate",
+        "counters_val": "7.2",
+        "counter": "Kassadin",
+        "counter_val": "10.4",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Vel'Koz",
+        "winrate": "0.4962",
+        "synergy": "Yuumi",
+        "synergy_val": "7.5",
+        "counters": "Yasuo",
+        "counters_val": "7.2",
+        "counter": "Amumu",
+        "counter_val": "9.4",
+        "role": [
+            5,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Vi",
+        "winrate": "0.5137",
+        "synergy": "Ziggs",
+        "synergy_val": "8.5",
+        "counters": "Lillia",
+        "counters_val": "7.0",
+        "counter": "Ekko",
+        "counter_val": "5.0",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Viego",
+        "winrate": "0.4759",
+        "synergy": "Wukong",
+        "synergy_val": "6.8",
+        "counters": "Qiyana",
+        "counters_val": "7.5",
+        "counter": "Amumu",
+        "counter_val": "6.1",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Viktor",
+        "winrate": "0.497",
+        "synergy": "Trundle",
+        "synergy_val": "8.9",
+        "counters": "Lux",
+        "counters_val": "8.0",
+        "counter": "Diana",
+        "counter_val": "6.7",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Vladimir",
+        "winrate": "0.5006",
+        "synergy": "Urgot",
+        "synergy_val": "7.1",
+        "counters": "Fiora",
+        "counters_val": "5.5",
+        "counter": "Sett",
+        "counter_val": "5.8",
+        "role": [
+            3,
+            1
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Volibear",
+        "winrate": "0.499",
+        "synergy": "Malzahar",
+        "synergy_val": "6.8",
+        "counters": "Tryndamere",
+        "counters_val": "6.6",
+        "counter": "Jax",
+        "counter_val": "6.7",
+        "role": [
+            1,
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Warwick",
+        "winrate": "0.5008",
+        "synergy": "Kayle",
+        "synergy_val": "10.4",
+        "counters": "Irelia",
+        "counters_val": "6.4",
+        "counter": "Xin Zhao",
+        "counter_val": "5.6",
+        "role": [
+            2,
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Wukong",
+        "winrate": "0.5173",
+        "synergy": "Zyra",
+        "synergy_val": "7.2",
+        "counters": "Tryndamere",
+        "counters_val": "7.7",
+        "counter": "Jax",
+        "counter_val": "6.3",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Xayah",
+        "winrate": "0.4897",
+        "synergy": "Talon",
+        "synergy_val": "8.4",
+        "counters": "Aphelios",
+        "counters_val": "4.0",
+        "counter": "Ziggs",
+        "counter_val": "4.0",
+        "role": [
+            4
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Xerath",
+        "winrate": "0.5005",
+        "synergy": "Quinn",
+        "synergy_val": "7.8",
+        "counters": "Swain",
+        "counters_val": "11.9",
+        "counter": "Irelia",
+        "counter_val": "9.0",
+        "role": [
+            5,
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Xin Zhao",
+        "winrate": "0.5174",
+        "synergy": "Rell",
+        "synergy_val": "11.4",
+        "counters": "Zed",
+        "counters_val": "7.6",
+        "counter": "Poppy",
+        "counter_val": "8.2",
+        "role": [
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Yasuo",
+        "winrate": "0.5045",
+        "synergy": "Fiddlesticks",
+        "synergy_val": "8.0",
+        "counters": "Twisted Fate",
+        "counters_val": "4.2",
+        "counter": "Rumble",
+        "counter_val": "8.3",
+        "role": [
+            3
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Yone",
+        "winrate": "0.5008",
+        "synergy": "Taric",
+        "synergy_val": "9.3",
+        "counters": "Gwen",
+        "counters_val": "13.7",
+        "counter": "Pantheon",
+        "counter_val": "7.2",
+        "role": [
+            3,
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Yorick",
+        "winrate": "0.5052",
+        "synergy": "Blitzcrank",
+        "synergy_val": "10.4",
+        "counters": "Darius",
+        "counters_val": "7.9",
+        "counter": "Irelia",
+        "counter_val": "8.9",
+        "role": [
+            1
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Yuumi",
+        "winrate": "0.504",
+        "synergy": "Vel'Koz",
+        "synergy_val": "6.7",
+        "counters": "Vel'Koz",
+        "counters_val": "7.8",
+        "counter": "Rell",
+        "counter_val": "5.9",
+        "role": [
+            5
+        ],
+        "adap": "0"
+    },
+    {
+        "name": "Zac",
+        "winrate": "0.5065",
+        "synergy": "Ornn",
+        "synergy_val": "7.5",
+        "counters": "Rengar",
+        "counters_val": "9.1",
+        "counter": "Nocturne",
+        "counter_val": "7.3",
+        "role": [
+            2
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Zed",
+        "winrate": "0.4836",
+        "synergy": "Kled",
+        "synergy_val": "9.0",
+        "counters": "Azir",
+        "counters_val": "6.9",
+        "counter": "Hecarim",
+        "counter_val": "9.3",
+        "role": [
+            3,
+            2
+        ],
+        "adap": "1"
+    },
+    {
+        "name": "Ziggs",
+        "winrate": "0.5114",
+        "synergy": "Vi",
+        "synergy_val": "8.8",
+        "counters": "Kog'Maw",
+        "counters_val": "6.4",
+        "counter": "Vayne",
+        "counter_val": "4.9",
+        "role": [
+            4
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Zilean",
+        "winrate": "0.5168",
+        "synergy": "Teemo",
+        "synergy_val": "9.3",
+        "counters": "Thresh",
+        "counters_val": "2.6",
+        "counter": "Soraka",
+        "counter_val": "5.6",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Zoe",
+        "winrate": "0.4879",
+        "synergy": "Nocturne",
+        "synergy_val": "6.9",
+        "counters": "Viktor",
+        "counters_val": "4.4",
+        "counter": "Ekko",
+        "counter_val": "6.3",
+        "role": [
+            3
+        ],
+        "adap": "-1"
+    },
+    {
+        "name": "Zyra",
+        "winrate": "0.5083",
+        "synergy": "Wukong",
+        "synergy_val": "8.1",
+        "counters": "Senna",
+        "counters_val": "8.7",
+        "counter": "Blitzcrank",
+        "counter_val": "6.4",
+        "role": [
+            5
+        ],
+        "adap": "-1"
+    }
+]
