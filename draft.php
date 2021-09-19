@@ -5,6 +5,8 @@
     $champions_data = json_decode($json_file, true);
     // ----------------------
 
+    
+
     class Champion
     {
         public $name;
@@ -18,6 +20,8 @@
         public $role;
         public $adap;
         public $score;
+        public $counters2 = [];
+        public $synergy2 = [];
 
         public function __construct($name, $winrate, $synergy, $synergy_val, $counters, $counters_val, $countered_by, $countered_by_val, $role, $adap)
         {
@@ -27,8 +31,8 @@
             $this->synergy_val = $synergy_val;
             $this->counters = $counters;
             $this->counters_val = $counters_val;
-            $this->countered_by = $countered_by;
-            $this->countered_by_val = $countered_by_val;
+            $this->counter = $countered_by;
+            $this->counter_val = $countered_by_val;
             $this->role = $role[0];
             $this->adap = $adap;
             $this->score = floatval($this->winrate);
@@ -51,6 +55,63 @@
             $champions_data[$i]["adap"],
         );
     }
+
+    function enemie_countered_by($picked_by_enemies, $champions)
+    {
+        $enemie_countered_by = [];
+
+        foreach ($picked_by_enemies as $picked)
+        {
+            foreach ($champions as $champ)
+            {
+                if ($champ->name == $picked)
+                {
+                    $counter = [$champ->counter, $champ->counter_val, $picked];
+                    array_push($enemie_countered_by, $counter);
+                }
+            }
+        }
+        return $enemie_countered_by;
+    }
+
+
+    function enemie_counter($picked_by_enemies, $champions)
+    {
+        $enemie_counter = [];
+
+        foreach ($picked_by_enemies as $picked)
+        {
+            foreach ($champions as $champ)
+            {
+                if ($champ->name == $picked)
+                {
+                    $counters = [$champ->counters, $champ->counters_val, $picked];
+                    array_push($enemie_counter, $counters);
+                }
+            }
+        }
+        return $enemie_counter;
+    }
+
+
+    function ally_synergy($picked, $champions)
+    {
+        $ally_synergy = [];
+
+        foreach ($picked as $picked)
+        {
+            foreach ($champions as $champ)
+            {
+                if ($champ->name == $picked)
+                {
+                    $synergy = [$champ->synergy, $champ->synergy_val, $picked];
+                    array_push($ally_synergy, $synergy);
+                }
+            }
+        }
+        return $ally_synergy;
+    }
+
 
     function picked_roles($picked, $champions)
     {
@@ -177,6 +238,10 @@
         $how_many_counters = 0;
         $is_counter_picked = false;
 
+        $enemie_countered_by = enemie_countered_by($picked_by_enemies, $champions);
+        $enemie_counter = enemie_counter($picked_by_enemies, $champions);
+        $ally_synergy = ally_synergy($picked, $champions);
+
 
         for($i = 0; $i < $ile_postaci_pokazuje; $i++)
         //while($score >= 52.5)
@@ -197,7 +262,7 @@
                     {
                         $champ->score = $champ->score - 5;
                     }
-                    // jeżeli kontuje przeciwnika score +3 dodatkowo jeśli synergia +3 jeśli przeciwnik kontruje score -7 
+                    // jeżeli kontuje przeciwnika score + dodatkowo jeśli synergia + jeśli przeciwnik kontruje score -
                     if(in_array($champ->counters, $picked_by_enemies))
                     {
                         $champ->score += $champ->counters_val;
@@ -210,6 +275,44 @@
                     {
                         $champ->score += $champ->synergy_val;
                     }
+
+
+                    // sprawdzanie dodatkowych kontr oraz dodatkowych przeciwnikow
+                    foreach($enemie_countered_by as $counter)
+                    {
+                        if($champ->name == $counter[0] && $champ->counters !== $counter[2])
+                        {
+                            $champ->score += $counter[1];
+                            // tymaczasowa naprawa błędu z powtarzaniem się nazwy postaci
+                            if(!in_array($counter[2], $champ->counters2))
+                            {
+                                array_push($champ->counters2, $counter[2]);
+                            }
+                        }
+                    }
+
+                    foreach($enemie_counter as $counter)
+                    {
+                        if($champ->name == $counter[0] && $champ->counters !== $counter[2])
+                        {
+                            $champ->score = $champ->score -  $counter[1];
+                        }
+                    }
+
+                    foreach($ally_synergy as $synergy)
+                    {
+                        if($champ->name == $synergy[0] && $champ->synergy !== $synergy[2])
+                        {
+                            $champ->score += $synergy[1];
+                            // tymaczasowa naprawa błędu z powtarzaniem się nazwy postaci
+                            if(!in_array($synergy[2], $champ->synergy2))
+                            {
+                                array_push($champ->synergy2, $synergy[2]);
+                            }
+                        }
+                    }
+
+
                     if($champ->score > $highest_score){
                         $highest_score = $champ->score;
                         $ktory = $champ;
@@ -227,14 +330,36 @@
             echo $i->name."</b> - ";
             echo "<span class='winrate'> Winrate: <b>".$i->winrate." </b></span> | ";
             echo "<span class='score'>Score: <b>".$i->score." </b></span>";
+
+
+
             if (in_array($i->counters, $picked_by_enemies))
             {
                 echo "<span class='red'> | Kontruje: <b>".$i->counters."</b></span>";
             }
+
+            foreach($i->counters2 as $counters)
+            {
+                if (in_array($counters, $picked_by_enemies))
+                {
+                    echo "<span class='red'> | Kontruje: <b>".$counters."</b></span>";
+                }
+            } 
+
             if (in_array($i->synergy, $picked))
             {
                 echo "<span class='green'> | Synergia: <b>".$i->synergy."</b></span>";
             }
+
+            foreach($i->synergy2 as $synergy)
+            {
+                if (in_array($synergy, $picked))
+                {
+                    echo "<span class='green'> | Synergia: <b>".$synergy."</b></span>";
+                }
+            } 
+
+
             switch($i->role)
             {
                 case 1:

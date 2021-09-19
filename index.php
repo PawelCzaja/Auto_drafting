@@ -12,7 +12,7 @@
             @array_push($picked_by_enemies, $_COOKIE["red_3"]);
             @array_push($picked_by_enemies, $_COOKIE["red_4"]);
             @array_push($picked_by_enemies, $_COOKIE["red_5"]);
-
+            
             $picked = [];
             @array_push($picked, $_COOKIE["blue_1"]);
             @array_push($picked, $_COOKIE["blue_2"]);
