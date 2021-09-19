@@ -142,6 +142,10 @@
                         {
                             picking($champions, $picked_by_enemies, $picked); 
                         }
+                        else
+                        {
+                            napisy_koncowe($champions, $picked, $picked_by_enemies);
+                        }
                     ?>
                 </div>
                 <input form ="form1" type="submit" name="subbmit">

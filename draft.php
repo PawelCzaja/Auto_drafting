@@ -238,6 +238,7 @@
         $how_many_counters = 0;
         $is_counter_picked = false;
 
+
         $enemie_countered_by = enemie_countered_by($picked_by_enemies, $champions);
         $enemie_counter = enemie_counter($picked_by_enemies, $champions);
         $ally_synergy = ally_synergy($picked, $champions);
@@ -394,5 +395,90 @@
             echo "<span class='adap'> | DMG_type: <b>".$this_adap." </b></span>";
             echo "</p>";
         }
+    }
+
+    function napisy_koncowe($champions, $picked, $picked_by_enemies)
+    {
+        $enemie_countered_by = enemie_countered_by($picked_by_enemies, $champions);
+        $avg_winrate = 0;
+        $synergies = [];
+        $roles = 1;
+
+        echo "<h3><b>PICKED</b></h3>";
+
+        while($roles <= 5)
+        {
+            foreach ($picked as $pick)
+            {
+                foreach ($champions as $champ)
+                {
+                    if ($champ->name == $pick && $champ->role == $roles)
+                    {
+                        switch($champ->role)
+                        {
+                            case 1:
+                                $role = "TOP";
+                                break;
+                            case 2:
+                                $role = "JUNGLER";
+                                break;
+                            case 3:
+                                $role = "MID";
+                                break;
+                            case 4:
+                                $role = "ADC";
+                                break;
+                            case 5:
+                                $role = "SUPP";
+                                break;
+                        }
+                        $roles ++;
+
+                        echo $role;
+                        echo "<b> ".$champ->name."</b>";
+                        $avg_winrate += $champ->winrate;
+
+                        if(in_array($champ->synergy, $picked))
+                        {
+                            echo "<span class='green'> synergia z: <b>".$champ->synergy."</b></span>";
+                        }
+
+                        if(in_array($champ->counter, $picked_by_enemies))
+                        {
+                            echo "<span class='red'> kontruje: <b>".$champ->counter."</b></span>";
+                        }
+
+                        foreach($enemie_countered_by as $ecb)
+                        {
+                            if($champ->name == $ecb[0])
+                            {
+                                echo "<span class='red'> kontruje: <b>".$ecb[2]."</b></span>";
+                            }
+                        }
+                        echo "<br>";
+                    }
+                }
+            }
+        }
+        echo "<br>Team avg winrate = ".($avg_winrate/5)."%<br>";
+        $avg_winrate = 0;
+        $worst_wr = 100;
+        foreach ($picked_by_enemies as $picked)
+        {
+            foreach ($champions as $champ)
+            {
+                if($picked == $champ->name)
+                {
+                    $avg_winrate += $champ->winrate;
+                    if($worst_wr > $champ->winrate)
+                    {
+                        $worst_wr = $champ->winrate;
+                        $worst_champ = $champ->name;
+                    }
+                }
+            }
+        }
+        echo "<br>Enemie team avg winrate = ".($avg_winrate/5)."%<br>";
+        echo "Worst eniemie = ".$worst_champ." with only :".$worst_wr."% winrate";
     }
 ?>
