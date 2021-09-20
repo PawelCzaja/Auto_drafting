@@ -400,6 +400,7 @@
     function napisy_koncowe($champions, $picked, $picked_by_enemies)
     {
         $enemie_countered_by = enemie_countered_by($picked_by_enemies, $champions);
+        $enemie_counter = enemie_counter($picked_by_enemies, $champions);
         $avg_winrate = 0;
         $synergies = [];
         $roles = 1;
@@ -443,16 +444,29 @@
                             echo "<span class='green'> synergia z: <b>".$champ->synergy."</b></span>";
                         }
 
-                        if(in_array($champ->counter, $picked_by_enemies))
+                        if(in_array($champ->counters, $picked_by_enemies))
                         {
-                            echo "<span class='red'> kontruje: <b>".$champ->counter."</b></span>";
+                            echo "<span class='blue'> kontruje: <b>".$champ->counters."</b></span>";
                         }
 
                         foreach($enemie_countered_by as $ecb)
                         {
-                            if($champ->name == $ecb[0])
+                            if($champ->name == $ecb[0] && $champ->counters !== $ecb[2])
                             {
-                                echo "<span class='red'> kontruje: <b>".$ecb[2]."</b></span>";
+                                echo "<span class='blue'> kontruje: <b>".$ecb[2]."</b></span>";
+                            }
+                        }
+
+                        if(in_array($champ->counter, $picked_by_enemies))
+                        {
+                            echo "<span class='red'> kontrowany przez: <b>".$champ->counter."</b></span>";
+                        }
+
+                        foreach($enemie_counter as $ecb)
+                        {
+                            if($champ->name == $ecb[0] && $champ->counter !== $ecb[2])
+                            {
+                                echo "<span class='red'> kontowany przez: <b>".$ecb[2]."</b></span>";
                             }
                         }
                         echo "<br>";
